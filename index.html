@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Logo-Nike-1.png">
+    <title>Nike</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo-Nike-1.png" alt="" class="logo">
+        <i class="fa-solid fa-cart-shopping" id="carrito" onclick="mostrarCarrito()"></i>
+    </header>
+    <div class="cantidad">
+        <span>0</span>
+    </div>
+    <section>
+        <div class="producto">
+            <img src="img/air-force.png" alt="" class="zapatilla">
+            <div class="info">
+                <span class="nombre">Nike Air Trainer 1</span>
+                <span class="descripcion">Zapatillas de Moda para Hombre</span>
+                <span class="precio">82.00</span>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/blancas.png" alt="" class="zapatilla">
+            <div class="info">
+                <span class="nombre">Jordan Air 200E</span>
+                <span class="descripcion">Zapatillas de Moda para Hombre</span>
+                <span class="precio">85.00</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+        </div>
+        <div class="producto">
+            <img src="img/metcon.png" alt="" class="zapatilla">
+            <div class="info">
+                <span class="nombre">Nike Metcon 8</span>
+                <span class="descripcion">Zapatillas de Entrenamiento para Hombre</span>
+                <span class="precio">70.00</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+        </div>
+        <div class="producto">
+            <img src="img/multi-color.png" alt="" class="zapatilla">
+            <div class="info">
+                <span class="nombre">Nike Air Force 1 '07</span>
+                <span class="descripcion">Zapatillas de Moda para Mujer</span>
+                <span class="precio">74.00</span>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/pegasus.png" alt="" class="zapatilla">
+            <div class="info">
+                <span class="nombre">Nike React Pegasus Trail 4</span>
+                <span class="descripcion">Zapatillas de Running para Hombre</span>
+                <span class="precio">77.00</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+        </div>
+        <div class="producto">
+            <img src="img/zapas-marrones.png" alt="" class="zapatilla">
+            <div class="info">
+                <span class="nombre">Nike Air Max 97 SE</span>
+                <span class="descripcion">Zapatillas de Moda para Hombre</span>
+                <span class="precio">100.00</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+        </div>
+        
+    </section>
+    <div class="contenedor-carrito">
+        <div class="contenedor-x">
+            <i class="fa-solid fa-xmark" class="x" onclick="ocultarCarrito()"></i>
+        </div>
+       <div class="contenedor-productos">
+            <span>MI COMPRA</span>
+          <div class="productos">
+            <ul class="lista-productos">
+               
+            </ul>
+          </div>
+       </div>
+       <div class="precio-total">
+         
+       </div>
+       <div class="vacio">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Tu carrito está vacío</span>
+       </div>
+       
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/f621a3aa95.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
